@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div style="margin-top: 40px; margin-bottom: 40px">
+			<header style="max-width: 650px; margin: auto; margin-bottom: 20px">
+				<img src="logo_oss_new.png" alt="Logo OSS" style="height: 48px" />
+			</header>
+			<main
+				style="
+					border-radius: 22px;
+					box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.1);
+					max-width: 650px;
+					margin: auto;
+					font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+						Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+					color: #00469b;
+					line-height: 1.5rem;
+				"
+			>
+				<div style="padding: 30px 40px">
+					<p>
+						Terimakasih:
+						<b><span style="color: #45af35">{nama}</span></b>
+					</p>
+					<p>
+						Pengajuan registrasi Hak Akses Online Single Submission (OSS) telah
+						disetujui. <br />
+						Berikut ini adalah data profil anda:
+					</p>
+					<table cellspacing="5px" style="width: 100%">
+						<tr>
+							<td
+								style="
+									background-color: #f7f7f7;
+									padding: 12px 30px;
+									border-radius: 24px 0 0 24px;
+								"
+							>
+								Nama User
+							</td>
+							<td
+								style="
+									background-color: #f7f7f7;
+									padding: 12px 30px;
+									border-radius: 0 22px 22px 0;
+								"
+							>
+								<b>{nama}</b>
+							</td>
+						</tr>
+						<tr>
+							<td
+								style="
+									background-color: #f7f7f7;
+									padding: 12px 30px;
+									border-radius: 24px 0 0 24px;
+								"
+							>
+								{jenis_identitas}
+							</td>
+							<td
+								style="
+									background-color: #f7f7f7;
+									padding: 12px 30px;
+									border-radius: 0 22px 22px 0;
+								"
+							>
+								<b>{nomor_identitas}</b>
+							</td>
+						</tr>
+					</table>
+					<p>Silakan melakukan aktivasi dengan menekan tombol di bawah ini:</p>
+					<a
+						href="{_link_aktivasi2}"
+						style="
+							background-color: #45af35;
+							display: block;
+							height: 40px;
+							border-radius: 20px;
+							text-decoration: none;
+							display: flex;
+							align-items: center;
+							justify-content: center;
+							color: white;
+							margin: 0 5px;
+							font-weight: 500;
+						"
+						>Aktivasi</a
+					>
+					<p>
+						Jika tombol di atas tidak berfungsi, silakan salin dan tempel tautan
+						di bawah ini pada browser Anda untuk melakukan aktivasi secara
+						manual:
+						<a href="{_link_aktivasi1}" style="color: #45af35"
+							>{_link_aktivasi}</a
+						>
+					</p>
+					<b>Salam,</b>
+					<p>Lembaga OSS - Kementerian Investasi/BKPM</p>
+
+					<hr style="border: 1px solid #f0f0f0; margin: 20px 0px" />
+
+					<div style="display: flex; margin-bottom: 10px; align-items: center">
+						<img
+							src="icon_call.png"
+							alt="Logo Headset"
+							style="height: 40px; width: 40px"
+						/>
+						<span style="margin-left: 10px">1500-540</span>
+					</div>
+					<div style="display: flex; margin-bottom: 10px; align-items: center">
+						<img
+							src="icon_message.png"
+							alt="Logo Headset"
+							style="height: 40px; width: 40px"
+						/>
+						<span style="margin-left: 10px">info@oss.go.id</span>
+					</div>
+					<div style="display: flex; margin-bottom: 10px">
+						<img
+							src="icon_location.png"
+							alt="Logo Headset"
+							style="height: 40px; width: 40px"
+						/>
+						<span style="margin-left: 10px">
+							Jalan Jenderal Gatot Subroto No. 44<br />
+							Jakarta 12190<br />
+							Indonesia
+						</span>
+					</div>
+
+					<div style="text-align: center">
+						<a href="" style="text-decoration: none; margin: 0px 2.5px">
+							<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+								<path
+									d="M19.772 8.4c-.984-.045-1.28-.053-3.772-.053s-2.787.009-3.771.053C9.7 8.519 8.519 9.717 8.4 12.229c-.044.984-.055 1.279-.055 3.771s.011 2.787.055 3.772c.116 2.505 1.289 3.711 3.827 3.827.983.044 1.279.055 3.771.055s2.788-.009 3.772-.055c2.532-.115 3.709-1.317 3.827-3.827.044-.984.053-1.28.053-3.772s-.009-2.787-.053-3.771c-.117-2.511-1.3-3.711-3.827-3.827zM16 20.793A4.793 4.793 0 1120.793 16 4.793 4.793 0 0116 20.793zm4.983-8.655a1.12 1.12 0 111.12-1.12 1.12 1.12 0 01-1.12 1.121zM19.111 16A3.111 3.111 0 1116 12.889 3.111 3.111 0 0119.111 16zM16 0a16 16 0 1016 16A16 16 0 0016 0zm9.277 19.848c-.153 3.393-2.043 5.273-5.428 5.429-1 .045-1.315.056-3.849.056s-2.852-.011-3.848-.056c-3.392-.156-5.273-2.039-5.429-5.429-.045-.995-.056-1.313-.056-3.848s.011-2.852.056-3.848c.156-3.392 2.039-5.273 5.429-5.428 1-.047 1.313-.057 3.848-.057s2.853.011 3.849.057c3.393.156 5.276 2.043 5.428 5.428.045 1 .056 1.313.056 3.848s-.01 2.853-.056 3.848z"
+									fill="#054598"
+								/>
+							</svg>
+						</a>
+						<a href="" style="text-decoration: none; margin: 0px 2.5px">
+							<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+								<path
+									d="M16 0a16 16 0 1016 16A16 16 0 0016 0zm4 10.667h-1.8c-.717 0-.867.295-.867 1.037v1.629H20L19.721 16h-2.388v9.333h-4V16h-2.666v-2.667h2.667v-3.077c0-2.359 1.241-3.589 4.039-3.589H20z"
+									fill="#054598"
+								/>
+							</svg>
+						</a>
+						<a href="" style="text-decoration: none; margin: 0px 2.5px">
+							<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+								<path
+									d="M16 0a16 16 0 1016 16A16 16 0 0016 0zm8.088 12.86a10.89 10.89 0 01-16.755 9.671A7.7 7.7 0 0013 20.945a3.838 3.838 0 01-3.579-2.66 3.841 3.841 0 001.731-.065 3.835 3.835 0 01-3.072-3.8 3.82 3.82 0 001.735.479 3.835 3.835 0 01-1.183-5.118 10.87 10.87 0 007.893 4 3.833 3.833 0 016.527-3.493 7.639 7.639 0 002.432-.929 3.845 3.845 0 01-1.684 2.12 7.64 7.64 0 002.2-.6 7.687 7.687 0 01-1.912 1.981z"
+									fill="#054598"
+								/>
+							</svg>
+						</a>
+						<a href="" style="text-decoration: none; margin: 0px 2.5px">
+							<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+								<path
+									d="M16 0a16 16 0 1016 16A16 16 0 0016 0zm5.921 22.523c-2.8.192-9.045.192-11.844 0-3.034-.208-3.388-1.694-3.41-6.523.023-4.839.38-6.315 3.411-6.523 2.8-.192 9.043-.192 11.844 0 3.036.208 3.388 1.693 3.412 6.523-.025 4.839-.381 6.315-3.413 6.523zm-8.588-9.645l6.556 3.117-6.556 3.128z"
+									fill="#054598"
+								/>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</main>
+		</div>
+	</body>
+</html>
