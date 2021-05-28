@@ -1,76 +1,150 @@
-&lt;div style="margin-top: 40px; margin-bottom: 40px"&gt; &lt;header
-style="max-width: 650px; margin: auto; margin-bottom: 20px"&gt; &lt;img
-src="logo_oss_new.png" alt="Logo OSS" style="height: 48px" /&gt; &lt;/header&gt;
-&lt;main style=" border-radius: 22px; box-shadow: 0px 0px 22px rgba(0, 0, 0,
-0.1); max-width: 650px; margin: auto; font-family: system-ui, -apple-system,
-Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI
-Emoji; color: #00469b; line-height: 1.5rem; " &gt; &lt;div style="padding: 30px
-40px"&gt; &lt;p&gt; Terimakasih: &lt;b&gt;&lt;span style="color:
-#45af35"&gt;{nama}&lt;/span&gt;&lt;/b&gt; &lt;/p&gt; &lt;p&gt; Pengajuan
-registrasi Hak Akses Online Single Submission (OSS) telah disetujui. &lt;br
-/&gt; Berikut ini adalah data profil anda: &lt;/p&gt; &lt;table
-cellspacing="5px" style="width: 100%"&gt; &lt;tr&gt; &lt;td style="
-background-color: #f7f7f7; padding: 12px 30px; border-radius: 24px 0 0 24px; "
-&gt; Nama User &lt;/td&gt; &lt;td style=" background-color: #f7f7f7; padding:
-12px 30px; border-radius: 0 22px 22px 0; " &gt; &lt;b&gt;{nama}&lt;/b&gt;
-&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td style=" background-color: #f7f7f7;
-padding: 12px 30px; border-radius: 24px 0 0 24px; " &gt; {jenis_identitas}
-&lt;/td&gt; &lt;td style=" background-color: #f7f7f7; padding: 12px 30px;
-border-radius: 0 22px 22px 0; " &gt; &lt;b&gt;{nomor_identitas}&lt;/b&gt;
-&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;p&gt;Silakan melakukan aktivasi
-dengan menekan tombol di bawah ini:&lt;/p&gt; &lt;a href="{_link_aktivasi2}"
-style=" background-color: #45af35; display: block; height: 40px; border-radius:
-20px; text-decoration: none; display: flex; align-items: center;
-justify-content: center; color: white; margin: 0 5px; font-weight: 500; "
-&gt;Aktivasi&lt;/a &gt; &lt;p&gt; Jika tombol di atas tidak berfungsi, silakan
-salin dan tempel tautan di bawah ini pada browser Anda untuk melakukan aktivasi
-secara manual: &lt;a href="{_link_aktivasi1}" style="color:
-#45af35"&gt;{_link_aktivasi}&lt;/a&gt; &lt;/p&gt; &lt;b&gt;Salam,&lt;/b&gt;
-&lt;p&gt;Lembaga OSS - Kementerian Investasi/BKPM&lt;/p&gt; &lt;hr
-style="border: 1px solid #f0f0f0; margin: 20px 0px" /&gt; &lt;div
-style="display: flex; margin-bottom: 10px; align-items: center"&gt; &lt;img
-src="icon_call.png" alt="Logo Headset" style="height: 40px; width: 40px" /&gt;
-&lt;span style="margin-left: 10px"&gt;1500-540&lt;/span&gt; &lt;/div&gt; &lt;div
-style="display: flex; margin-bottom: 10px; align-items: center"&gt; &lt;img
-src="icon_message.png" alt="Logo Headset" style="height: 40px; width: 40px"
-/&gt; &lt;span style="margin-left: 10px"&gt;info@oss.go.id&lt;/span&gt;
-&lt;/div&gt; &lt;div style="display: flex; margin-bottom: 10px"&gt; &lt;img
-src="icon_location.png" alt="Logo Headset" style="height: 40px; width: 40px"
-/&gt; &lt;span style="margin-left: 10px"&gt; Jalan Jenderal Gatot Subroto No.
-44&lt;br /&gt; Jakarta 12190&lt;br /&gt; Indonesia &lt;/span&gt; &lt;/div&gt;
-&lt;div style="text-align: center"&gt; &lt;a href="" style="text-decoration:
-none; margin: 0px 2.5px"&gt; &lt;svg xmlns="http://www.w3.org/2000/svg"
-width="32" height="32"&gt; &lt;path d="M19.772
-8.4c-.984-.045-1.28-.053-3.772-.053s-2.787.009-3.771.053C9.7 8.519 8.519 9.717
-8.4 12.229c-.044.984-.055 1.279-.055 3.771s.011 2.787.055 3.772c.116 2.505 1.289
-3.711 3.827 3.827.983.044 1.279.055 3.771.055s2.788-.009 3.772-.055c2.532-.115
-3.709-1.317
-3.827-3.827.044-.984.053-1.28.053-3.772s-.009-2.787-.053-3.771c-.117-2.511-1.3-3.711-3.827-3.827zM16
-20.793A4.793 4.793 0 1120.793 16 4.793 4.793 0 0116 20.793zm4.983-8.655a1.12
-1.12 0 111.12-1.12 1.12 1.12 0 01-1.12 1.121zM19.111 16A3.111 3.111 0 1116
-12.889 3.111 3.111 0 0119.111 16zM16 0a16 16 0 1016 16A16 16 0 0016 0zm9.277
-19.848c-.153 3.393-2.043 5.273-5.428 5.429-1
-.045-1.315.056-3.849.056s-2.852-.011-3.848-.056c-3.392-.156-5.273-2.039-5.429-5.429-.045-.995-.056-1.313-.056-3.848s.011-2.852.056-3.848c.156-3.392
-2.039-5.273 5.429-5.428 1-.047 1.313-.057 3.848-.057s2.853.011
-3.849.057c3.393.156 5.276 2.043 5.428 5.428.045 1 .056 1.313.056 3.848s-.01
-2.853-.056 3.848z" fill="#054598" /&gt; &lt;/svg&gt; &lt;/a&gt; &lt;a href=""
-style="text-decoration: none; margin: 0px 2.5px"&gt; &lt;svg
-xmlns="http://www.w3.org/2000/svg" width="32" height="32"&gt; &lt;path d="M16
-0a16 16 0 1016 16A16 16 0 0016 0zm4 10.667h-1.8c-.717 0-.867.295-.867
-1.037v1.629H20L19.721 16h-2.388v9.333h-4V16h-2.666v-2.667h2.667v-3.077c0-2.359
-1.241-3.589 4.039-3.589H20z" fill="#054598" /&gt; &lt;/svg&gt; &lt;/a&gt; &lt;a
-href="" style="text-decoration: none; margin: 0px 2.5px"&gt; &lt;svg
-xmlns="http://www.w3.org/2000/svg" width="32" height="32"&gt; &lt;path d="M16
-0a16 16 0 1016 16A16 16 0 0016 0zm8.088 12.86a10.89 10.89 0 01-16.755 9.671A7.7
-7.7 0 0013 20.945a3.838 3.838 0 01-3.579-2.66 3.841 3.841 0 001.731-.065 3.835
-3.835 0 01-3.072-3.8 3.82 3.82 0 001.735.479 3.835 3.835 0 01-1.183-5.118 10.87
-10.87 0 007.893 4 3.833 3.833 0 016.527-3.493 7.639 7.639 0 002.432-.929 3.845
-3.845 0 01-1.684 2.12 7.64 7.64 0 002.2-.6 7.687 7.687 0 01-1.912 1.981z"
-fill="#054598" /&gt; &lt;/svg&gt; &lt;/a&gt; &lt;a href=""
-style="text-decoration: none; margin: 0px 2.5px"&gt; &lt;svg
-xmlns="http://www.w3.org/2000/svg" width="32" height="32"&gt; &lt;path d="M16
-0a16 16 0 1016 16A16 16 0 0016 0zm5.921 22.523c-2.8.192-9.045.192-11.844
-0-3.034-.208-3.388-1.694-3.41-6.523.023-4.839.38-6.315 3.411-6.523 2.8-.192
-9.043-.192 11.844 0 3.036.208 3.388 1.693 3.412 6.523-.025 4.839-.381
-6.315-3.413 6.523zm-8.588-9.645l6.556 3.117-6.556 3.128z" fill="#054598" /&gt;
-&lt;/svg&gt; &lt;/a&gt; &lt;/div&gt; &lt;/div&gt; &lt;/main&gt; &lt;/div&gt;
+&#x3C;div style=&#x22;margin-top: 40px; margin-bottom: 40px&#x22;&#x3E;
+  &#x3C;header style=&#x22;max-width: 650px; margin: auto; margin-bottom: 20px&#x22;&#x3E;
+    &#x3C;img src=&#x22;{_link_logo_oss}&#x22; alt=&#x22;Logo OSS&#x22; style=&#x22;height: 55px&#x22; /&#x3E;
+  &#x3C;/header&#x3E;
+  &#x3C;main
+    style=&#x22;
+      border-radius: 22px;
+      box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.1);
+      max-width: 650px;
+      margin: auto;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
+        sans-serif, Apple Color Emoji, Segoe UI Emoji;
+      color: #00469b;
+      line-height: 1.5rem;
+    &#x22;
+  &#x3E;
+    &#x3C;div style=&#x22;padding: 30px 40px&#x22;&#x3E;
+      &#x3C;p&#x3E;
+        Terimakasih:
+        &#x3C;b&#x3E;&#x3C;span style=&#x22;color: #45af35&#x22;&#x3E;{nama}&#x3C;/span&#x3E;&#x3C;/b&#x3E;
+      &#x3C;/p&#x3E;
+      &#x3C;p&#x3E;
+        Pengajuan registrasi Hak Akses Online Single Submission (OSS) telah
+        disetujui. &#x3C;br /&#x3E;
+        Berikut ini adalah data profil anda:
+      &#x3C;/p&#x3E;
+      &#x3C;table cellspacing=&#x22;5px&#x22; style=&#x22;width: 100%&#x22;&#x3E;
+        &#x3C;tr&#x3E;
+          &#x3C;td
+            style=&#x22;
+              background-color: #f7f7f7;
+              padding: 12px 30px;
+              border-radius: 24px 0 0 24px;
+            &#x22;
+          &#x3E;
+            Nama User
+          &#x3C;/td&#x3E;
+          &#x3C;td
+            style=&#x22;
+              background-color: #f7f7f7;
+              padding: 12px 30px;
+              border-radius: 0 22px 22px 0;
+            &#x22;
+          &#x3E;
+            &#x3C;b&#x3E;{nama}&#x3C;/b&#x3E;
+          &#x3C;/td&#x3E;
+        &#x3C;/tr&#x3E;
+        &#x3C;tr&#x3E;
+          &#x3C;td
+            style=&#x22;
+              background-color: #f7f7f7;
+              padding: 12px 30px;
+              border-radius: 24px 0 0 24px;
+            &#x22;
+          &#x3E;
+            {jenis_identitas}
+          &#x3C;/td&#x3E;
+          &#x3C;td
+            style=&#x22;
+              background-color: #f7f7f7;
+              padding: 12px 30px;
+              border-radius: 0 22px 22px 0;
+            &#x22;
+          &#x3E;
+            &#x3C;b&#x3E;{nomor_identitas}&#x3C;/b&#x3E;
+          &#x3C;/td&#x3E;
+        &#x3C;/tr&#x3E;
+      &#x3C;/table&#x3E;
+      &#x3C;p&#x3E;Silakan melakukan aktivasi dengan menekan tombol di bawah ini:&#x3C;/p&#x3E;
+      &#x3C;a
+        href=&#x22;{_link_aktivasi2}&#x22;
+        style=&#x22;
+          background-color: #45af35;
+          display: block;
+          height: 40px;
+          border-radius: 20px;
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+          margin: 0 5px;
+          font-weight: 500;
+        &#x22;
+        &#x3E;Aktivasi&#x3C;/a
+      &#x3E;
+      &#x3C;p&#x3E;
+        Jika tombol di atas tidak berfungsi, silakan salin dan tempel tautan di
+        bawah ini pada browser Anda untuk melakukan aktivasi secara manual:
+        &#x3C;a href=&#x22;{_link_aktivasi1}&#x22; style=&#x22;color: #45af35&#x22;&#x3E;{_link_aktivasi}&#x3C;/a&#x3E;
+      &#x3C;/p&#x3E;
+      &#x3C;b&#x3E;Salam,&#x3C;/b&#x3E;
+      &#x3C;p&#x3E;Lembaga OSS - Kementerian Investasi/BKPM&#x3C;/p&#x3E;
+
+      &#x3C;hr style=&#x22;border: 1px solid #f0f0f0; margin: 20px 0px&#x22; /&#x3E;
+
+      &#x3C;div style=&#x22;display: flex; margin-bottom: 10px; align-items: center&#x22;&#x3E;
+        &#x3C;svg xmlns=&#x22;http://www.w3.org/2000/svg&#x22; width=&#x22;40&#x22; height=&#x22;40&#x22;&#x3E;&#x3C;g data-name=&#x22;CALL_ICON&#x22;&#x3E;&#x3C;g data-name=&#x22;Group 2364&#x22;&#x3E;&#x3C;path data-name=&#x22;Path 8380&#x22; d=&#x22;M34.507 25.847c-.516.047-.847.108-1.179.106a2.723 2.723 0 01-2.752-2.6q-.069-2.342 0-4.685a2.727 2.727 0 01.986-1.981 2.793 2.793 0 012.144-.618c.172.022.345.046.588.08a14.081 14.081 0 00-21.459-11.48 13.41 13.41 0 00-6.6 11.4c.382 0 .766-.03 1.144.006a2.705 2.705 0 012.509 2.591 92.707 92.707 0 010 4.687 2.706 2.706 0 01-1.9 2.47 2.8 2.8 0 01-3.093-.89 1.1 1.1 0 00-.834-.438 3.51 3.51 0 01-.865-6.729.633.633 0 00.472-.732A15.637 15.637 0 018.194 5.2C12.873.461 18.585-1.109 24.981.785s10.235 6.344 11.552 12.824a22.109 22.109 0 01.243 3.474.6.6 0 00.435.661 3.509 3.509 0 01-.681 6.726.541.541 0 00-.533.521 15.609 15.609 0 01-10.026 12.118c-.915.371-1.92.529-2.875.814a2.02 2.02 0 00-.59.393 7.4 7.4 0 01-1.376 1.079 6.756 6.756 0 01-5.585 0 3.356 3.356 0 01-.7-.421 1.7 1.7 0 01.031-3.01 6.265 6.265 0 014.771-.87 4.522 4.522 0 012.724 1.328.688.688 0 00.554.11 14.38 14.38 0 0010.279-7.6c.511-.952.847-1.988 1.303-3.085z&#x22; fill=&#x22;#034ea9&#x22;/&#x3E;&#x3C;/g&#x3E;&#x3C;/g&#x3E;&#x3C;/svg&#x3E;
+        &#x3C;span style=&#x22;margin-left: 10px&#x22;&#x3E;1500-540&#x3C;/span&#x3E;
+      &#x3C;/div&#x3E;
+      &#x3C;div style=&#x22;display: flex; margin-bottom: 10px; align-items: center&#x22;&#x3E;
+        &#x3C;svg xmlns=&#x22;http://www.w3.org/2000/svg&#x22; width=&#x22;40.002&#x22; height=&#x22;40&#x22;&#x3E;&#x3C;g data-name=&#x22;MESSAGE_ICON&#x22; fill=&#x22;#034ea9&#x22;&#x3E;&#x3C;path data-name=&#x22;Path 8381&#x22; d=&#x22;M19.943 33.63c-5.287 0-10.574.014-15.861 0-2.666-.007-3.739-1.03-3.75-3.648q-.041-9.96 0-19.92c.01-2.64 1.1-3.686 3.722-3.688q15.954-.014 31.907 0c2.661 0 3.714 1.024 3.722 3.656q.026 10.052 0 20.1c-.007 2.406-1.094 3.483-3.5 3.493-5.42.022-10.832.007-16.24.007zm17.28-25.611H2.911c5.378 5.36 10.448 10.446 15.56 15.486 1.142 1.126 2.32.81 3.389-.266q3.436-3.473 6.9-6.916c2.7-2.672 5.42-5.324 8.464-8.3zm-11.317 13c-1.091 1.207-2.145 2.49-3.322 3.65-1.706 1.68-3.45 1.651-5.171-.034-1.173-1.15-2.276-2.37-3.029-3.159L3.851 31.979h32.966zm2.017-1.153l10.142 10.152V9.739zM1.968 30.136L12.043 20.12 1.968 9.981z&#x22;/&#x3E;&#x3C;path data-name=&#x22;Path 8382&#x22; d=&#x22;M10.375 33.946q-3.147 0-6.294-.01C1.25 33.929.038 32.746.026 29.979c-.03-6.854-.03-13.556 0-19.925.01-2.8 1.214-3.991 4.03-3.994q15.954-.014 31.907 0c2.856 0 4.023 1.153 4.03 3.964.02 6.931.018 13.7 0 20.1-.01 2.585-1.219 3.791-3.806 3.8-3.866.018-7.73.007-11.6.01h-8.612q-2.8.011-5.6.012zm9.629-27.271q-7.978 0-15.955.007c-2.48 0-3.4.918-3.414 3.379-.025 6.366-.025 13.067 0 19.92.01 2.431.943 3.337 3.44 3.345q5.95.022 11.894 0h8.606c3.863 0 7.728.007 11.594-.01 2.229-.01 3.184-.96 3.191-3.184.022-6.41.025-13.171 0-20.1-.007-2.468-.9-3.345-3.414-3.347q-7.971-.01-15.942-.01zm17.552 25.616H3.101l11.287-11.26.218.23c.218.227.464.489.73.778.652.694 1.462 1.558 2.29 2.374 1.612 1.578 3.162 1.587 4.739.034.8-.79 1.56-1.654 2.293-2.49.338-.385.676-.77 1.019-1.148l.218-.24.23.232zm-32.96-.617h31.478l-10.153-10.21q-.4.448-.794.9c-.741.844-1.506 1.718-2.32 2.522-1.819 1.79-3.76 1.78-5.6-.037a71.857 71.857 0 01-2.31-2.392l-.509-.543zm-2.932-.79V9.233l10.821 10.888zm.617-20.152v18.666l9.33-9.28zm36.1 20.033l-.528-.528c-3.318-3.325-6.761-6.771-10.14-10.153l-.217-.217L38.379 8.995zm-10.018-10.9c3.132 3.132 6.314 6.32 9.4 9.407v-18.79zm-8.384 4.653a2.444 2.444 0 01-1.718-.794c-3.75-3.7-7.425-7.36-11.317-11.25L2.168 7.711h35.806l-3.159 3.093c-2.026 1.985-3.939 3.855-5.84 5.739q-3.469 3.436-6.9 6.914a3.04 3.04 0 01-2.1 1.06zM3.663 8.328l3.714 3.707c3.89 3.886 7.568 7.553 11.314 11.248.918.909 1.883.825 2.952-.262 2.293-2.313 4.586-4.628 6.9-6.919 1.9-1.883 3.818-3.754 5.845-5.742l2.08-2.034z&#x22;/&#x3E;&#x3C;/g&#x3E;&#x3C;/svg&#x3E;
+        &#x3C;span style=&#x22;margin-left: 10px&#x22;&#x3E;info@oss.go.id&#x3C;/span&#x3E;
+      &#x3C;/div&#x3E;
+      &#x3C;div style=&#x22;display: flex; margin-bottom: 10px&#x22;&#x3E;
+        &#x3C;svg xmlns=&#x22;http://www.w3.org/2000/svg&#x22; width=&#x22;40&#x22; height=&#x22;40&#x22;&#x3E;&#x3C;g data-name=&#x22;LOCATION_ICON&#x22; fill=&#x22;#034ea9&#x22;&#x3E;&#x3C;g data-name=&#x22;Group 2367&#x22;&#x3E;&#x3C;path data-name=&#x22;Path 8383&#x22; d=&#x22;M19.985 38.768l-3.572-4.925c-2.421-3.337-4.865-6.656-7.251-10.016a16.36 16.36 0 01-3.072-7.82 13.027 13.027 0 014.005-11.12A14.115 14.115 0 0131.98 7.493a13.435 13.435 0 011.026 12.2 21.326 21.326 0 01-2.974 5.26q-4.935 6.754-9.83 13.535c-.058.086-.122.16-.217.28zm.009-2.254c.094-.122.149-.191.2-.262l8.824-12.159a21.231 21.231 0 002.314-3.818 12.979 12.979 0 00.9-8.906 12.731 12.731 0 00-16.769-8.37 12.326 12.326 0 00-7.768 14.639 17.427 17.427 0 003 6.08q3.618 4.965 7.22 9.945z&#x22;/&#x3E;&#x3C;path data-name=&#x22;Path 8384&#x22; d=&#x22;M20.052 39.999l-.74-.744-5.695-7.846c-1.722-2.364-3.44-4.72-5.132-7.106a17.219 17.219 0 01-3.223-8.219A13.839 13.839 0 019.511 4.291a14.947 14.947 0 0123.178 2.761 14.266 14.266 0 011.1 12.924 22.271 22.271 0 01-3.085 5.469q-3.475 4.764-6.933 9.545zm-.071-37a11.882 11.882 0 00-4.218.771 11.537 11.537 0 00-7.255 13.659 16.4 16.4 0 002.868 5.787l8.62 11.876 8.348-11.5a20.549 20.549 0 002.225-3.665 12.108 12.108 0 00.862-8.351 11.621 11.621 0 00-5.962-7.262 12.118 12.118 0 00-5.488-1.319z&#x22;/&#x3E;&#x3C;/g&#x3E;&#x3C;g data-name=&#x22;Group 2368&#x22;&#x3E;&#x3C;path data-name=&#x22;Path 8385&#x22; d=&#x22;M19.986 9.089a5.84 5.84 0 11-5.876 5.836 5.669 5.669 0 015.876-5.836zm4.56 5.849a4.553 4.553 0 10-4.567 4.494 4.32 4.32 0 004.569-4.494z&#x22;/&#x3E;&#x3C;path data-name=&#x22;Path 8386&#x22; d=&#x22;M19.983 21.609a6.678 6.678 0 11.006-13.353h.008a6.784 6.784 0 014.852 1.913 6.674 6.674 0 011.886 4.783 6.564 6.564 0 01-6.748 6.657zm.02-10.363a3.72 3.72 0 00-2.708 1.029 3.66 3.66 0 00-1.023 2.674 3.72 3.72 0 107.44-.011 3.5 3.5 0 00-3.7-3.694z&#x22;/&#x3E;&#x3C;/g&#x3E;&#x3C;/g&#x3E;&#x3C;/svg&#x3E;
+        &#x3C;span style=&#x22;margin-left: 10px&#x22;&#x3E;
+          Jalan Jenderal Gatot Subroto No. 44&#x3C;br /&#x3E;
+          Jakarta 12190&#x3C;br /&#x3E;
+          Indonesia
+        &#x3C;/span&#x3E;
+      &#x3C;/div&#x3E;
+
+      &#x3C;div style=&#x22;text-align: center&#x22;&#x3E;
+        &#x3C;a href=&#x22;&#x22; style=&#x22;text-decoration: none; margin: 0px 2.5px&#x22;&#x3E;
+          &#x3C;svg xmlns=&#x22;http://www.w3.org/2000/svg&#x22; width=&#x22;32&#x22; height=&#x22;32&#x22;&#x3E;
+            &#x3C;path
+              d=&#x22;M19.772 8.4c-.984-.045-1.28-.053-3.772-.053s-2.787.009-3.771.053C9.7 8.519 8.519 9.717 8.4 12.229c-.044.984-.055 1.279-.055 3.771s.011 2.787.055 3.772c.116 2.505 1.289 3.711 3.827 3.827.983.044 1.279.055 3.771.055s2.788-.009 3.772-.055c2.532-.115 3.709-1.317 3.827-3.827.044-.984.053-1.28.053-3.772s-.009-2.787-.053-3.771c-.117-2.511-1.3-3.711-3.827-3.827zM16 20.793A4.793 4.793 0 1120.793 16 4.793 4.793 0 0116 20.793zm4.983-8.655a1.12 1.12 0 111.12-1.12 1.12 1.12 0 01-1.12 1.121zM19.111 16A3.111 3.111 0 1116 12.889 3.111 3.111 0 0119.111 16zM16 0a16 16 0 1016 16A16 16 0 0016 0zm9.277 19.848c-.153 3.393-2.043 5.273-5.428 5.429-1 .045-1.315.056-3.849.056s-2.852-.011-3.848-.056c-3.392-.156-5.273-2.039-5.429-5.429-.045-.995-.056-1.313-.056-3.848s.011-2.852.056-3.848c.156-3.392 2.039-5.273 5.429-5.428 1-.047 1.313-.057 3.848-.057s2.853.011 3.849.057c3.393.156 5.276 2.043 5.428 5.428.045 1 .056 1.313.056 3.848s-.01 2.853-.056 3.848z&#x22;
+              fill=&#x22;#054598&#x22;
+            /&#x3E;
+          &#x3C;/svg&#x3E;
+        &#x3C;/a&#x3E;
+        &#x3C;a href=&#x22;&#x22; style=&#x22;text-decoration: none; margin: 0px 2.5px&#x22;&#x3E;
+          &#x3C;svg xmlns=&#x22;http://www.w3.org/2000/svg&#x22; width=&#x22;32&#x22; height=&#x22;32&#x22;&#x3E;
+            &#x3C;path
+              d=&#x22;M16 0a16 16 0 1016 16A16 16 0 0016 0zm4 10.667h-1.8c-.717 0-.867.295-.867 1.037v1.629H20L19.721 16h-2.388v9.333h-4V16h-2.666v-2.667h2.667v-3.077c0-2.359 1.241-3.589 4.039-3.589H20z&#x22;
+              fill=&#x22;#054598&#x22;
+            /&#x3E;
+          &#x3C;/svg&#x3E;
+        &#x3C;/a&#x3E;
+        &#x3C;a href=&#x22;&#x22; style=&#x22;text-decoration: none; margin: 0px 2.5px&#x22;&#x3E;
+          &#x3C;svg xmlns=&#x22;http://www.w3.org/2000/svg&#x22; width=&#x22;32&#x22; height=&#x22;32&#x22;&#x3E;
+            &#x3C;path
+              d=&#x22;M16 0a16 16 0 1016 16A16 16 0 0016 0zm8.088 12.86a10.89 10.89 0 01-16.755 9.671A7.7 7.7 0 0013 20.945a3.838 3.838 0 01-3.579-2.66 3.841 3.841 0 001.731-.065 3.835 3.835 0 01-3.072-3.8 3.82 3.82 0 001.735.479 3.835 3.835 0 01-1.183-5.118 10.87 10.87 0 007.893 4 3.833 3.833 0 016.527-3.493 7.639 7.639 0 002.432-.929 3.845 3.845 0 01-1.684 2.12 7.64 7.64 0 002.2-.6 7.687 7.687 0 01-1.912 1.981z&#x22;
+              fill=&#x22;#054598&#x22;
+            /&#x3E;
+          &#x3C;/svg&#x3E;
+        &#x3C;/a&#x3E;
+        &#x3C;a href=&#x22;&#x22; style=&#x22;text-decoration: none; margin: 0px 2.5px&#x22;&#x3E;
+          &#x3C;svg xmlns=&#x22;http://www.w3.org/2000/svg&#x22; width=&#x22;32&#x22; height=&#x22;32&#x22;&#x3E;
+            &#x3C;path
+              d=&#x22;M16 0a16 16 0 1016 16A16 16 0 0016 0zm5.921 22.523c-2.8.192-9.045.192-11.844 0-3.034-.208-3.388-1.694-3.41-6.523.023-4.839.38-6.315 3.411-6.523 2.8-.192 9.043-.192 11.844 0 3.036.208 3.388 1.693 3.412 6.523-.025 4.839-.381 6.315-3.413 6.523zm-8.588-9.645l6.556 3.117-6.556 3.128z&#x22;
+              fill=&#x22;#054598&#x22;
+            /&#x3E;
+          &#x3C;/svg&#x3E;
+        &#x3C;/a&#x3E;
+      &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+  &#x3C;/main&#x3E;
+&#x3C;/div&#x3E;
