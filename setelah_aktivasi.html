@@ -1,196 +1,249 @@
-<div
-  style="
-    padding-top: 50px;
-    padding-bottom: 50px;
-    border-bottom: 24px solid #9b1f15;
-  "
->
-  <header style="max-width: 650px; margin: auto; margin-bottom: 20px">
-    <img src="{_link_logo_oss}" alt="Logo OSS" style="height: 55px" />
-  </header>
-  <main
-    style="
-      border-radius: 22px;
-      box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.1);
-      max-width: 650px;
-      margin: auto;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
-        Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
-      color: #525252;
-      line-height: 1.5rem;
-    "
-  >
-    <div style="padding: 30px 40px">
-      <div style="padding: 0 5px">
-        <p>
-          Terima kasih
-          <b><span style="color: #034ea9">{nama}</span></b> telah melakukan
-          aktivasi.
-        </p>
-        <p>Berikut adalah akun Hak Akses Anda:</p>
-      </div>
-      <table cellspacing="5px" style="width: 100%; margin: 24px 0">
-        <tr>
-          <td
-            style="
-              background-color: #f7f7f7;
-              padding: 12px 30px;
-              border-radius: 24px 0 0 24px;
-            "
-          >
-            Username
-          </td>
-          <td
-            style="
-              background-color: #f7f7f7;
-              padding: 12px 30px;
-              border-radius: 0 22px 22px 0;
-            "
-          >
-            <b>{username}</b>
-          </td>
-        </tr>
-        <tr>
-          <td
-            style="
-              background-color: #f7f7f7;
-              padding: 12px 30px;
-              border-radius: 24px 0 0 24px;
-            "
-          >
-            Password
-          </td>
-          <td
-            style="
-              background-color: #f7f7f7;
-              padding: 12px 30px;
-              border-radius: 0 22px 22px 0;
-            "
-          >
-            <b>{password}</b>
-          </td>
-        </tr>
-      </table>
-      <div style="padding: 0 5px">
-        <p>
-          Silakan login pada sistem
-          <a href="https://oss.go.id/" style="color: #034ea9"
-            >Online Single Submission (OSS)</a
-          >
-          dengan menggunakan username dan password di atas. Untuk mengetahui
-          tata cara pengajuan perizinan berusaha, klik
-          <a href="#" style="color: #034ea9">tautan ini</a>.
-        </p>
-        <p>
-          Jika anda tidak melanjutkan proses pengajuan perizinan berusaha
-          dalam jangka waktu 30 (tiga puluh) hari, maka sistem akan
-          membatalkan hak akses anda secara otomatis.
-        </p>
-        <p><b>Salam,</b><br />OSS - Kementerian Investasi/BKPM</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>OSS - Kementerian Investasi/BKPM</title>
+    <style>
+@media only screen and (max-width: 620px) {
+  table[class="body"] h1 {
+    font-size: 28px !important;
+    margin-bottom: 10px !important;
+  }
 
-        <hr style="border: 1px solid #f0f0f0; margin: 24px 0px" />
+  table[class="body"] p,
+table[class="body"] ul,
+table[class="body"] ol,
+table[class="body"] td,
+table[class="body"] span,
+table[class="body"] a {
+    font-size: 16px !important;
+  }
 
-        <div
-          style="display: flex; margin-bottom: 14px; align-items: center"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="36"
-            height="36.004"
-          >
-            <path data-name="Rectangle 2" d="M0 0h36v36H0z" fill="none" />
-            <path
-              data-name="Path 8380"
-              d="M30.851 23.263c-.464.042-.762.1-1.061.1a2.451 2.451 0 01-2.477-2.34q-.062-2.108 0-4.216a2.454 2.454 0 01.887-1.783 2.514 2.514 0 011.93-.556c.155.02.311.041.529.072A12.673 12.673 0 0011.346 4.2a12.069 12.069 0 00-5.94 10.26c.344 0 .689-.027 1.03.005A2.434 2.434 0 018.694 16.8q.053 2.109 0 4.218a2.435 2.435 0 01-1.71 2.223 2.52 2.52 0 01-2.784-.8.99.99 0 00-.751-.394 3.159 3.159 0 01-.775-6.056.57.57 0 00.425-.659A14.073 14.073 0 017.169 4.68 14.349 14.349 0 0122.277.707c5.756 1.7 9.211 5.71 10.4 11.542a19.9 19.9 0 01.219 3.127.54.54 0 00.392.595 3.158 3.158 0 01-.613 6.053.487.487 0 00-.48.469A14.048 14.048 0 0123.168 33.4c-.824.334-1.728.476-2.587.733a1.818 1.818 0 00-.531.354 6.66 6.66 0 01-1.238.976 6.08 6.08 0 01-5.026 0 3.02 3.02 0 01-.63-.379 1.53 1.53 0 01.028-2.709 5.639 5.639 0 014.294-.783 4.07 4.07 0 012.452 1.2.619.619 0 00.5.1 12.942 12.942 0 009.251-6.84c.46-.857.762-1.789 1.17-2.776z"
-              fill="#9b1f15"
-            />
-          </svg>
-          <span style="margin-left: 14px">1500-540</span>
-        </div>
-        <div
-          style="display: flex; margin-bottom: 14px; align-items: center"
-        >
-          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36">
-            <path data-name="Rectangle 1" d="M0 0h36v36H0z" fill="none" />
-            <path
-              data-name="Path 8381"
-              d="M17.947 29.653c-4.52 0-9.04.012-13.56 0-2.279-.005-3.2-.88-3.206-3.118q-.035-8.515 0-17.03c.008-2.257.941-3.15 3.182-3.15q13.639-.012 27.278 0c2.275 0 3.175.876 3.182 3.126q.022 8.594 0 17.184c-.006 2.056-.935 2.978-2.993 2.986-4.634.019-9.26.006-13.884.006zm14.773-21.9H3.386c4.6 4.583 8.932 8.931 13.3 13.239.976.963 1.98.692 2.9-.228q2.938-2.97 5.9-5.913c2.309-2.284 4.634-4.551 7.236-7.1zm-9.675 11.119c-.932 1.032-1.834 2.128-2.84 3.12-1.459 1.44-2.949 1.411-4.421-.029-1-.983-1.946-2.026-2.589-2.7l-9 8.982h28.176zm1.724-.99l8.671 8.68V9.228zM2.58 26.666l8.613-8.563L2.58 9.435z"
-              fill="#9b1f15"
-            />
-            <path
-              data-name="Path 8382"
-              d="M9.767 29.925q-2.69 0-5.381-.008C1.966 29.911.93 28.9.919 26.534.9 20.672.9 14.939.919 9.498c.008-2.394 1.038-3.413 3.445-3.415q13.64-.012 27.278 0c2.442 0 3.439.99 3.445 3.389.017 5.926.015 11.713 0 17.184-.008 2.21-1.042 3.24-3.253 3.249-3.3.015-6.609.006-9.917.008h-7.363q-2.394.01-4.787.011zM18 6.609q-6.82 0-13.64.006c-2.118 0-2.9.785-2.92 2.888-.018 5.442-.018 11.172 0 17.03.008 2.078.81 2.853 2.941 2.859q5.087.019 10.17 0h7.357c3.3 0 6.607.006 9.912-.008 1.905-.008 2.722-.821 2.728-2.722.019-5.48.022-11.26 0-17.184-.006-2.11-.769-2.859-2.919-2.861q-6.813-.008-13.63-.008zm15 21.9H3.548l9.65-9.63.186.2c.186.194.4.418.624.665.557.593 1.25 1.332 1.957 2.03 1.378 1.35 2.7 1.357 4.05.029.684-.675 1.334-1.414 1.96-2.128.289-.329.578-.658.871-.981l.186-.205.2.2zm-28.174-.528h26.91l-8.68-8.73q-.342.383-.679.769c-.63.72-1.288 1.469-1.98 2.16-1.555 1.53-3.215 1.522-4.788-.031q-1.011-1-1.975-2.045l-.436-.464zm-2.506-.675V8.796l9.251 9.308zm.527-17.227v15.956l7.977-7.934zM33.71 27.206l-.45-.45c-2.837-2.842-5.78-5.789-8.669-8.68l-.185-.185 9.3-9.3zm-8.565-9.321c2.678 2.677 5.4 5.4 8.036 8.042V9.863zm-7.168 3.978a2.09 2.09 0 01-1.469-.679q-4.854-4.793-9.675-9.618L2.751 7.495h30.61l-2.7 2.644c-1.732 1.7-3.368 3.3-4.992 4.907q-2.97 2.938-5.9 5.911a2.6 2.6 0 01-1.8.906zM4.029 8.025L7.2 11.191q4.821 4.824 9.673 9.617c.784.776 1.61.705 2.52-.224 1.96-1.98 3.92-3.96 5.9-5.915 1.62-1.61 3.264-3.209 5-4.909l1.777-1.735z"
-              fill="#9b1f15"
-            />
-          </svg>
-          <span style="margin-left: 14px">info@oss.go.id</span>
-        </div>
-        <div style="display: flex; margin-bottom: 14px">
-          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36">
-            <path data-name="Rectangle 3" d="M0 0h36v36H0z" fill="none" />
-            <g data-name="Group 2367" fill="#9b1f15">
-              <path
-                data-name="Path 8383"
-                d="M17.987 34.442l-3.129-4.316c-2.121-2.924-4.262-5.832-6.353-8.776a14.336 14.336 0 01-2.691-6.851 11.416 11.416 0 013.508-9.744 12.365 12.365 0 0119.17 2.283 11.774 11.774 0 01.9 10.69 18.687 18.687 0 01-2.61 4.609q-4.32 5.918-8.612 11.86c-.05.076-.107.14-.19.246zm.008-1.975c.083-.107.131-.167.175-.229l7.731-10.654a18.6 18.6 0 002.028-3.345 11.374 11.374 0 00.788-7.8A11.154 11.154 0 0014.026 3.1 10.8 10.8 0 007.22 15.927a15.271 15.271 0 002.628 5.327q3.17 4.351 6.327 8.718z"
-              />
-              <path
-                data-name="Path 8384"
-                d="M18.047 35.55l-.649-.652-5-6.884a505.912 505.912 0 01-4.5-6.235 15.109 15.109 0 01-2.828-7.212 12.143 12.143 0 013.725-10.35 13.116 13.116 0 0120.34 2.423 12.518 12.518 0 01.965 11.34 19.542 19.542 0 01-2.707 4.8q-3.046 4.179-6.084 8.37zm-.063-32.466a10.426 10.426 0 00-3.7.677A10.123 10.123 0 007.916 15.75a14.39 14.39 0 002.52 5.078l7.56 10.421 7.326-10.099a18.03 18.03 0 001.952-3.216 10.62 10.62 0 00.756-7.328 10.2 10.2 0 00-5.232-6.372 10.633 10.633 0 00-4.814-1.156z"
-              />
-            </g>
-            <g data-name="Group 2368" fill="#9b1f15">
-              <path
-                data-name="Path 8385"
-                d="M17.989 8.354a5.256 5.256 0 11-5.288 5.252 5.1 5.1 0 015.288-5.252zm4.1 5.264a4.1 4.1 0 10-4.11 4.045 3.888 3.888 0 004.11-4.045z"
-              />
-              <path
-                data-name="Path 8386"
-                d="M17.984 19.621a6.009 6.009 0 01.005-12.018h.007a6.106 6.106 0 014.367 1.722 6.007 6.007 0 011.7 4.3 5.908 5.908 0 01-6.073 5.991zm.015-9.327a3.348 3.348 0 00-2.43.926 3.294 3.294 0 00-.921 2.407 3.35 3.35 0 106.7-.01 3.15 3.15 0 00-3.33-3.325z"
-              />
-            </g>
-          </svg>
-          <span style="margin-left: 14px">
-            Jalan Jenderal Gatot Subroto No. 44<br />
-            Jakarta 12190<br />
-            Indonesia
-          </span>
-        </div>
+  table[class="body"] .wrapper,
+table[class="body"] .article {
+    padding: 15px !important;
+  }
 
-        <div style="text-align: center; margin-top: 40px">
-          <a href="https://www.instagram.com/oss.go.id/" style="text-decoration: none; margin: 0px 2.5px">
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
-              <path
-                d="M19.772 8.4c-.984-.045-1.28-.053-3.772-.053s-2.787.009-3.771.053C9.7 8.519 8.519 9.717 8.4 12.229c-.044.984-.055 1.279-.055 3.771s.011 2.787.055 3.772c.116 2.505 1.289 3.711 3.827 3.827.983.044 1.279.055 3.771.055s2.788-.009 3.772-.055c2.532-.115 3.709-1.317 3.827-3.827.044-.984.053-1.28.053-3.772s-.009-2.787-.053-3.771c-.117-2.511-1.3-3.711-3.827-3.827zM16 20.793A4.793 4.793 0 1120.793 16 4.793 4.793 0 0116 20.793zm4.983-8.655a1.12 1.12 0 111.12-1.12 1.12 1.12 0 01-1.12 1.121zM19.111 16A3.111 3.111 0 1116 12.889 3.111 3.111 0 0119.111 16zM16 0a16 16 0 1016 16A16 16 0 0016 0zm9.277 19.848c-.153 3.393-2.043 5.273-5.428 5.429-1 .045-1.315.056-3.849.056s-2.852-.011-3.848-.056c-3.392-.156-5.273-2.039-5.429-5.429-.045-.995-.056-1.313-.056-3.848s.011-2.852.056-3.848c.156-3.392 2.039-5.273 5.429-5.428 1-.047 1.313-.057 3.848-.057s2.853.011 3.849.057c3.393.156 5.276 2.043 5.428 5.428.045 1 .056 1.313.056 3.848s-.01 2.853-.056 3.848z"
-                fill="#9b1f15"
-              />
-            </svg>
-          </a>
-          <a href="https://www.facebook.com/OSS-Indonesia-109055061289447" style="text-decoration: none; margin: 0px 2.5px">
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
-              <path
-                d="M16 0a16 16 0 1016 16A16 16 0 0016 0zm4 10.667h-1.8c-.717 0-.867.295-.867 1.037v1.629H20L19.721 16h-2.388v9.333h-4V16h-2.666v-2.667h2.667v-3.077c0-2.359 1.241-3.589 4.039-3.589H20z"
-                fill="#9b1f15"
-              />
-            </svg>
-          </a>
-          <a href="https://twitter.com/OSS_id" style="text-decoration: none; margin: 0px 2.5px">
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
-              <path
-                d="M16 0a16 16 0 1016 16A16 16 0 0016 0zm8.088 12.86a10.89 10.89 0 01-16.755 9.671A7.7 7.7 0 0013 20.945a3.838 3.838 0 01-3.579-2.66 3.841 3.841 0 001.731-.065 3.835 3.835 0 01-3.072-3.8 3.82 3.82 0 001.735.479 3.835 3.835 0 01-1.183-5.118 10.87 10.87 0 007.893 4 3.833 3.833 0 016.527-3.493 7.639 7.639 0 002.432-.929 3.845 3.845 0 01-1.684 2.12 7.64 7.64 0 002.2-.6 7.687 7.687 0 01-1.912 1.981z"
-                fill="#9b1f15"
-              />
-            </svg>
-          </a>
-          <a href="https://www.youtube.com/channel/UCNNpwT4AJJGNbHytdB5iNgA" style="text-decoration: none; margin: 0px 2.5px">
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
-              <path
-                d="M16 0a16 16 0 1016 16A16 16 0 0016 0zm5.921 22.523c-2.8.192-9.045.192-11.844 0-3.034-.208-3.388-1.694-3.41-6.523.023-4.839.38-6.315 3.411-6.523 2.8-.192 9.043-.192 11.844 0 3.036.208 3.388 1.693 3.412 6.523-.025 4.839-.381 6.315-3.413 6.523zm-8.588-9.645l6.556 3.117-6.556 3.128z"
-                fill="#9b1f15"
-              />
-            </svg>
-          </a>
-        </div>
-      </div>
-    </div>
-  </main>
-</div>
+  table[class="body"] .content {
+    padding: 0 !important;
+  }
+
+  table[class="body"] .container {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  table[class="body"] .main {
+    border-left-width: 0 !important;
+    border-radius: 14px 14px 0 0 !important;
+    border-right-width: 0 !important;
+  }
+
+  table[class="body"] .btn table {
+    width: 100% !important;
+  }
+
+  table[class="body"] .btn a {
+    width: 100% !important;
+  }
+
+  table[class="body"] .img-responsive {
+    height: auto !important;
+    max-width: 100% !important;
+    width: auto !important;
+  }
+}
+@media all {
+  .ExternalClass {
+    width: 100%;
+  }
+
+  .ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+    line-height: 100%;
+  }
+
+  .apple-link a {
+    color: inherit !important;
+    font-family: inherit !important;
+    font-size: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+    text-decoration: none !important;
+  }
+
+  #MessageViewBody a {
+    color: inherit;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+  }
+
+  .btn-primary table td:hover {
+    background-color: #034ea9 !important;
+  }
+
+  .btn-primary a:hover {
+    background-color: #034ea9 !important;
+    border-color: #034ea9 !important;
+  }
+}
+</style>
+  </head>
+  <body class="" style="background-color: #fafafa; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica,
+          Arial, sans-serif; -webkit-font-smoothing: antialiased; font-size: 14px; line-height: 1.6; margin: 0; padding: 0; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-bottom: 24px solid #9b1f15;">
+    <span class="preheader" style="color: transparent; display: none; height: 0; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; mso-hide: all; visibility: hidden; width: 0;">Terima kasih <b><span style="color: #034ea9">{nama}</span></b> telah
+      melakukan aktivasi.</span>
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="body" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #fafafa; width: 100%;" width="100%" bgcolor="#fafafa">
+      <tr>
+        <td style="font-family: sans-serif; font-size: 14px; vertical-align: top;" valign="top">&nbsp;</td>
+        <td class="container" style="font-family: sans-serif; font-size: 14px; vertical-align: top; display: block; max-width: 650px; padding: 20px; margin: 0 auto;" valign="top">
+          <div class="content" style="box-sizing: border-box; display: block; margin: 0 auto; max-width: 650px; padding: 20px;">
+            <!-- START HEADER -->
+            <div class="header">
+              <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+                <tr>
+                  <td class="content-block" style="font-family: sans-serif; font-size: 14px; vertical-align: top; padding-bottom: 10px; padding-top: 10px;" valign="top">
+                    <img src="logo_oss_new.png" alt="OSS" height="55" border="0" style="-ms-interpolation-mode: bicubic; max-width: 100%; border: 0; outline: none; text-decoration: none; display: block; margin-bottom: 20px;">
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!-- END HEADER -->
+
+            <!-- START CENTERED WHITE CONTAINER -->
+            <table role="presentation" class="main" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background: #ffffff; border-radius: 24px; width: 100%; box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.1);" width="100%">
+              <!-- START MAIN CONTENT AREA -->
+              <tr>
+                <td class="wrapper" style="font-family: sans-serif; font-size: 14px; vertical-align: top; box-sizing: border-box; padding: 35px;" valign="top">
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+                    <tr>
+                      <td style="font-family: sans-serif; font-size: 14px; vertical-align: top;" valign="top">
+                        <table cellspacing="5px" cellpadding="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+                          <tr>
+                            <td style="font-family: sans-serif; font-size: 14px; vertical-align: top;" valign="top">
+                              Terima kasih<b><span style="color: #034ea9"> {nama} </span></b>telah melakukan aktivasi.
+                            </td>
+                          </tr>
+                        </table>
+
+                        <table role="presentation" border="0" cellspacing="5px" cellpadding="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; margin-top: 16px; margin-bottom: 16px;" width="100%">
+                          <tr>
+                            <td style="font-family: sans-serif; font-size: 14px; vertical-align: top; background-color: #f7f7f7; padding: 12px 30px; border-radius: 24px 0 0 24px;" bgcolor="#f7f7f7" valign="top">
+                              Username
+                            </td>
+                            <td style="font-family: sans-serif; font-size: 14px; vertical-align: top; background-color: #f7f7f7; padding: 12px 30px; border-radius: 0 22px 22px 0;" bgcolor="#f7f7f7" valign="top">
+                              <b>{username}</b>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="font-family: sans-serif; font-size: 14px; vertical-align: top; background-color: #f7f7f7; padding: 12px 30px; border-radius: 24px 0 0 24px;" bgcolor="#f7f7f7" valign="top">
+                              Password
+                            </td>
+                            <td style="font-family: sans-serif; font-size: 14px; vertical-align: top; background-color: #f7f7f7; padding: 12px 30px; border-radius: 0 22px 22px 0;" bgcolor="#f7f7f7" valign="top">
+                              <b>{password}</b>
+                            </td>
+                          </tr>
+                        </table>
+
+                        <table cellspacing="5px" cellpadding="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+                          <tr>
+                            <td style="font-family: sans-serif; font-size: 14px; vertical-align: top;" valign="top">
+                              Silakan login pada sistem
+                              <a href="https://oss.go.id/" style="color: #034ea9; text-decoration: none;">Online Single Submission (OSS)</a>
+                              dengan menggunakan username dan password di atas.
+                              Untuk mengetahui tata cara pengajuan perizinan
+                              berusaha, klik
+                              <a href="#" style="text-decoration: underline; color: #034ea9;">tautan ini</a>.
+                            </td>
+                          </tr>
+                        </table>
+
+                        <table style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; margin-top: 14px;" width="100%">
+                          <tr>
+                            <td style="font-family: sans-serif; font-size: 14px; vertical-align: top;" valign="top">
+                              Jika anda tidak melanjutkan proses pengajuan
+                              perizinan berusaha dalam jangka waktu 30 (tiga
+                              puluh) hari, maka sistem akan membatalkan hak
+                              akses anda secara otomatis.
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="font-family: sans-serif; font-size: 14px; vertical-align: top;" valign="top">
+                              <br><b>Salam,</b><br>Lembaga OSS - Kementerian
+                              Investasi/BKPM
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td style="font-family: sans-serif; font-size: 14px; vertical-align: top;" valign="top"><hr style="border: 0; border-bottom: 1px solid #e6e7e8; margin: 24px 0;"></td>
+                          </tr>
+                        </table>
+
+                        <table style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+                          <tr>
+                            <td width="50" style="font-family: sans-serif; font-size: 14px; vertical-align: top;" valign="top">
+                              <img src="icon_call.png" alt="OSS" width="36" height="36" border="0" style="-ms-interpolation-mode: bicubic; max-width: 100%; border: 0; outline: none; text-decoration: none; display: inline-block; vertical-align: middle; margin: 4px 0;">
+                            </td>
+                            <td style="font-family: sans-serif; font-size: 14px; vertical-align: middle;" valign="middle">1500-540</td>
+                          </tr>
+                          <tr>
+                            <td width="50" style="font-family: sans-serif; font-size: 14px; vertical-align: top;" valign="top">
+                              <img src="icon_message.png" alt="OSS" width="36" height="36" border="0" style="-ms-interpolation-mode: bicubic; max-width: 100%; border: 0; outline: none; text-decoration: none; display: inline-block; vertical-align: middle; margin: 4px 0;">
+                            </td>
+                            <td style="font-family: sans-serif; font-size: 14px; vertical-align: middle;" valign="middle">
+                              info@oss.go.id
+                            </td>
+                          </tr>
+                          <tr>
+                            <td width="50" style="font-family: sans-serif; font-size: 14px; vertical-align: top;" valign="top">
+                              <img src="icon_location.png" alt="OSS" width="36" height="36" border="0" style="-ms-interpolation-mode: bicubic; max-width: 100%; border: 0; outline: none; text-decoration: none; display: inline-block; vertical-align: middle; margin: 4px 0;">
+                            </td>
+                            <td style="font-family: sans-serif; font-size: 14px; vertical-align: middle;" valign="middle">
+                              Jalan Jenderal Gatot Subroto No. 44<br>
+                              Jakarta 12190<br>
+                              Indonesia
+                            </td>
+                          </tr>
+                        </table>
+
+                        <table style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; margin-top: 24px;" width="100%">
+                          <tr>
+                            <td align="center" style="font-family: sans-serif; font-size: 14px; vertical-align: top;" valign="top">
+                              <a href="https://www.instagram.com/oss.go.id/" style="color: #034ea9; text-decoration: none; margin: 0 2px;">
+                                <img src="icon_instagram.png" alt="OSS" width="32" height="32" border="0" style="-ms-interpolation-mode: bicubic; max-width: 100%; border: 0; outline: none; text-decoration: none; display: inline-block;">
+                              </a>
+                              <a href="https://www.facebook.com/OSS-Indonesia-109055061289447" style="color: #034ea9; text-decoration: none; margin: 0 2px;">
+                                <img src="icon_facebook.png" alt="OSS" width="32" height="32" border="0" style="-ms-interpolation-mode: bicubic; max-width: 100%; border: 0; outline: none; text-decoration: none; display: inline-block;">
+                              </a>
+                              <a href="https://twitter.com/OSS_id" style="color: #034ea9; text-decoration: none; margin: 0 2px;">
+                                <img src="icon_twitter.png" alt="OSS" width="32" height="32" border="0" style="-ms-interpolation-mode: bicubic; max-width: 100%; border: 0; outline: none; text-decoration: none; display: inline-block;">
+                              </a>
+                              <a href="https://www.youtube.com/channel/UCNNpwT4AJJGNbHytdB5iNgA" style="color: #034ea9; text-decoration: none; margin: 0 2px;">
+                                <img src="icon_youtube.png" alt="OSS" width="32" height="32" border="0" style="-ms-interpolation-mode: bicubic; max-width: 100%; border: 0; outline: none; text-decoration: none; display: inline-block;">
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!-- END MAIN CONTENT AREA -->
+            </table>
+            <!-- END CENTERED WHITE CONTAINER -->
+          </div>
+        </td>
+        <td style="font-family: sans-serif; font-size: 14px; vertical-align: top;" valign="top">&nbsp;</td>
+      </tr>
+    </table>
+  </body>
+</html>
