@@ -22,15 +22,15 @@ table[class="body"] a {
 
   table[class="body"] .wrapper,
 table[class="body"] .article {
-    padding: 16px !important;
+    padding: 15px !important;
   }
 
   table[class="body"] .content {
-    padding: 0px !important;
+    padding: 0 !important;
   }
 
   table[class="body"] .container {
-    padding: 0px !important;
+    padding: 0 !important;
     width: 100% !important;
   }
 
@@ -99,8 +99,7 @@ table[class="body"] .article {
   </head>
   <body class="" style="background-color: #fafafa; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica,
           Arial, sans-serif; -webkit-font-smoothing: antialiased; font-size: 14px; line-height: 1.6; margin: 0; padding: 0; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-bottom: 24px solid #9b1f15;">
-    <span class="preheader" style="color: transparent; display: none; height: 0; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; mso-hide: all; visibility: hidden; width: 0;">Pengajuan registrasi Hak Akses Online Single Submission (OSS) telah
-      disetujui.</span>
+    <span class="preheader" style="color: transparent; display: none; height: 0; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; mso-hide: all; visibility: hidden; width: 0;">Selamat <b><span style="color: #034ea9">{nama},</span></b> Sistem Online Single Submission (OSS) telah menerbitkan pengembangan perizinan berusaha Anda dengan data sebagai berikut:</span>
     <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="body" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #fafafa; width: 100%;" width="100%" bgcolor="#fafafa">
       <tr>
         <td style="font-family: sans-serif; font-size: 14px; vertical-align: top;" valign="top">&nbsp;</td>
@@ -129,15 +128,7 @@ table[class="body"] .article {
                         <table cellspacing="5px" cellpadding="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
                           <tr>
                             <td style="font-family: sans-serif; font-size: 14px; vertical-align: top;" valign="top">
-                              Terimakasih:
-                              <b><span style="color: #034ea9">{nama}</span></b>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td style="font-family: sans-serif; font-size: 14px; vertical-align: top;" valign="top">
-                              Pengajuan registrasi Hak Akses Online Single
-                              Submission (OSS) telah disetujui. <br>
-                              Berikut ini adalah data profil anda:
+                              Selamat<b><span style="color: #034ea9"> {nama}, </span></b>Sistem Online Single Submission (OSS) telah menerbitkan pengembangan perizinan berusaha Anda dengan data sebagai berikut:
                             </td>
                           </tr>
                         </table>
@@ -145,62 +136,45 @@ table[class="body"] .article {
                         <table role="presentation" border="0" cellspacing="5px" cellpadding="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; margin-top: 16px; margin-bottom: 16px;" width="100%">
                           <tr>
                             <td style="font-family: sans-serif; font-size: 14px; vertical-align: top; background-color: #f7f7f7; padding: 12px 30px; border-radius: 24px 0 0 24px;" bgcolor="#f7f7f7" valign="top">
-                              Nama User
+                              Nama Usaha/Badan Usah
                             </td>
                             <td style="font-family: sans-serif; font-size: 14px; vertical-align: top; background-color: #f7f7f7; padding: 12px 30px; border-radius: 0 22px 22px 0;" bgcolor="#f7f7f7" valign="top">
-                              <b>{nama}</b>
+                              <b>{nama_usaha}</b>
                             </td>
                           </tr>
                           <tr>
                             <td style="font-family: sans-serif; font-size: 14px; vertical-align: top; background-color: #f7f7f7; padding: 12px 30px; border-radius: 24px 0 0 24px;" bgcolor="#f7f7f7" valign="top">
-                              {jenis_identitas}
+                              Nomor Induk Berusaha (NIB)
                             </td>
                             <td style="font-family: sans-serif; font-size: 14px; vertical-align: top; background-color: #f7f7f7; padding: 12px 30px; border-radius: 0 22px 22px 0;" bgcolor="#f7f7f7" valign="top">
-                              <b>{nomor_identitas}</b>
+                              <b>{nib}</b>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="font-family: sans-serif; font-size: 14px; vertical-align: top; background-color: #f7f7f7; padding: 12px 30px; border-radius: 24px 0 0 24px;" bgcolor="#f7f7f7" valign="top">
+                              Sertifikat Standar
+                            </td>
+                            <td style="font-family: sans-serif; font-size: 14px; vertical-align: top; background-color: #f7f7f7; padding: 12px 30px; border-radius: 0 22px 22px 0;" bgcolor="#f7f7f7" valign="top">
+                              <b>{sertifikat_standar}</b>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="font-family: sans-serif; font-size: 14px; vertical-align: top; background-color: #f7f7f7; padding: 12px 30px; border-radius: 24px 0 0 24px;" bgcolor="#f7f7f7" valign="top">
+                              Tanggal Pengembangan
+                            </td>
+                            <td style="font-family: sans-serif; font-size: 14px; vertical-align: top; background-color: #f7f7f7; padding: 12px 30px; border-radius: 0 22px 22px 0;" bgcolor="#f7f7f7" valign="top">
+                              <b>{tanggal_pengembangan}</b>
                             </td>
                           </tr>
                         </table>
 
                         <table cellspacing="5px" cellpadding="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
                           <tr>
-                            <td style="font-family: sans-serif; font-size: 14px; vertical-align: top;" valign="top">
-                              Silakan melakukan aktivasi dengan menekan tombol
-                              di bawah ini:
-                            </td>
+                            <td>Silakan lihat dan unduh dokumen <a href="{_link_download}" target="_blank" style="color: #034ea9; text-decoration: none;">di sini.</a></td>
                           </tr>
                         </table>
 
-                        <table role="presentation" border="0" cellpadding="5px" cellspacing="0" class="btn btn-primary" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; box-sizing: border-box; width: 100%; margin-top: 6px; margin-bottom: 6px;" width="100%">
-                          <tbody>
-                            <tr>
-                              <td align="center" style="font-family: sans-serif; font-size: 14px; vertical-align: top;" valign="top">
-                                <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
-                                  <tbody>
-                                    <tr>
-                                      <td style="font-family: sans-serif; font-size: 14px; vertical-align: top; border-radius: 24px; text-align: center; background-color: #034ea9;" valign="top" align="center" bgcolor="#034ea9">
-                                        <a href="{_link_aktivasi2}" target="_blank" style="border: solid 1px #034ea9; border-radius: 24px; box-sizing: border-box; cursor: pointer; display: inline-block; font-size: 14px; font-weight: bold; margin: 0; padding: 8px 24px; text-decoration: none; text-transform: capitalize; background-color: #034ea9; border-color: #034ea9; color: #ffffff; width: 100%;">Aktivasi</a>
-                                      </td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-
-                        <table cellspacing="5px" cellpadding="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
-                          <tr>
-                            <td style="font-family: sans-serif; font-size: 14px; vertical-align: top;" valign="top">
-                              Jika tombol di atas tidak berfungsi, silakan salin
-                              dan tempel tautan di bawah ini pada browser Anda
-                              untuk melakukan aktivasi secara manual:
-                            </td>
-                          </tr>
-                          <tr>
-                            <td style="font-family: sans-serif; font-size: 14px; vertical-align: top;" valign="top">
-                              <a href="{_link_aktivasi1}" target="_blank" style="text-decoration: underline; color: #034ea9;">{_link_aktivasi}</a>
-                            </td>
-                          </tr>
+                        <table style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; margin-top: 14px;" width="100%">
                           <tr>
                             <td style="font-family: sans-serif; font-size: 14px; vertical-align: top;" valign="top">
                               <br><b>Salam,</b><br>Lembaga OSS - Kementerian
